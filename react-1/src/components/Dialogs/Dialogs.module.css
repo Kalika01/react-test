@@ -1,0 +1,41 @@
+
+.dialogs{
+   display:grid;
+   grid-template-columns: 200px 400px ;
+   grid-template-rows: 500px ;
+}
+.dialog img{
+width: 50px;
+border-radius: 30px;
+}
+.Data{
+   text-decoration: none; 
+   color: aliceblue;
+   margin: 0px 0px 0px 5px;
+}
+.dialogsItems{
+   padding: 10px;
+}
+
+.messages{
+   padding-top: 40px;
+   
+}
+.messages img{
+   width: 5px;
+}
+
+.otstup{
+height: 34px;
+}
+.button{
+   width: 50px;
+   height: 25px;
+   border-radius: 30px; 
+   border: solid 3px orange;
+   color: darkviolet;
+   font-size: 14px;
+   font-weight: 700;
+}
+
+
