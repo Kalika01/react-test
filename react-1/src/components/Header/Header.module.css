@@ -3,9 +3,19 @@
       grid-area: h;
       background-color: black;
       margin: 0px 0px 3px 0px;
+      color:orange
 }
 
 .header img {
       width: 60px;
-      
+}
+
+.loginBlock {
+float:right;
+
+}
+
+
+.logimBlock a {
+      color:white;
 }

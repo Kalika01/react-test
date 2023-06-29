@@ -18,13 +18,13 @@ return <nav className={s.nav}>
             <NavLink to='/news' className={navData => navData.isActive ? s.activeLink : s.item} >News</NavLink>
             </div>
             <div>
-            <NavLink to='music' className={navData => navData.isActive ? s.activeLink : s.item} >Music</NavLink>
+            <NavLink to='/music' className={navData => navData.isActive ? s.activeLink : s.item} >Music</NavLink>
             </div>
             <div>
-            <NavLink to='settings' className={navData => navData.isActive ? s.activeLink : s.item} >Settings</NavLink>
+            <NavLink to='/settings' className={navData => navData.isActive ? s.activeLink : s.item} >Settings</NavLink>
             </div>
             <div>
-            <NavLink to='friends' className= {navData => navData.isActive ? s.activeLink : s.itemf} >Friends</NavLink>
+            <NavLink to='/friends' className= {navData => navData.isActive ? s.activeLink : s.item} >Friends </NavLink>
             </div>
             <div>
             
